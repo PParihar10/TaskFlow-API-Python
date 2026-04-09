@@ -14,7 +14,7 @@ tasks = []
 
 @app.get("/")     #http://127.0.0.1:8000/docs
 def home():
-    return {"message": "TaskFlow API is running 🚀"}
+    return {"message": "TaskFlow API is running"}
 
 @app.get("/tasks")
 def get_tasks():
