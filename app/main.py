@@ -12,7 +12,7 @@ class Task(BaseModel):
 
 tasks = []
 
-@app.get("/")
+@app.get("/")     #http://127.0.0.1:8000/docs
 def home():
     return {"message": "TaskFlow API is running 🚀"}
 
